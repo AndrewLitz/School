@@ -1,5 +1,0 @@
-BobcatDash -  These are the HTML, CSS, and Javascript files that I made to recreate the google dinosaur game. All of these files were uploaded to an Ubuntu Server, where I installed Apache and made the websites available to the public. The game can be played by visiting "Litz.app" or "Bit.ly/BobcatDash". 
-
-ApacheFiles - These are the components of the Apache2 web server that I had to create in order to make it work. I wanted to show all of my customization. The .txt files in this folder would usually be .conf, but I wanted you to be able to open them.
-
-Thanks!
