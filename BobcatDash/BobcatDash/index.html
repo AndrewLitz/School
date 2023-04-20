@@ -1,0 +1,51 @@
+<!--- ANDREW LITZ - Bobcat Dash (Google Dinosaur Game - Frostburg Edition)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bobcat Dash</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Frostburg Paw Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="/images/paw.PNG" />
+
+    <!-- Imports the script.js, the other scripts don't need to be imported
+    into index.html because the script.js imports them -->
+
+    <script src="script.js" type="module"></script>
+  </head>
+
+  <body>
+    <!-- Overall Div that wraps the entire game for formatting and resizing -->
+
+    <div class="overall" data-overall>
+      <!-- BobcatDash Logo that dissapears during the game -->
+
+      <img
+        src="images/bobcatDash.png"
+        class="logo"
+        data-Logo
+        style="position: absolute; align-items: center"
+      />
+      <div class="score" data-score>0</div>
+      <!-- SCORE -->
+      <div class="start-screen" data-start-screen>Press SPACE to Start</div>
+      <!-- Start Screen -->
+
+      <!-- Two ground images because one needs to be repeated after the other,
+            Simulates the endless grass -->
+      <img src="images/ground.png" class="ground" data-ground />
+      <img src="images/ground.png" class="ground" data-ground />
+
+      <!--- Imports the initial Bobcat, all other images/actions are handled by the Bobcat.js file -->
+
+      <img src="images/bobcat-stationary.png" class="bobcat" data-bobcat />
+    </div>
+  </body>
+</html>
